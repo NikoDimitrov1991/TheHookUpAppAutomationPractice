@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adaac05c-4800-44d9-a2e0-2330081484e3" name="Changes" comment="Creating Project and setting up the first packages">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumberOptions/CucumberRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/hookUpApp.feature" afterDir="false" />
+    <list default="true" id="adaac05c-4800-44d9-a2e0-2330081484e3" name="Changes" comment="Applying Page Object Model by creating pageObjects package, AddRemovePage class, containing all the locators needed for the AddRemoveSteps steps and then refactoring AddRemoveSteps class">
       <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/AddRemovePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/AddRemoveSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/TestContextSetup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/global.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/AddRemoveSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/AddRemoveSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +36,9 @@
     &quot;accountId&quot;: &quot;8c624d90-2f9f-4788-8251-bf29c745e42e&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -115,7 +110,7 @@
       <option name="presentableId" value="Default" />
       <updated>1728031495005</updated>
       <workItem from="1728031496069" duration="9130000" />
-      <workItem from="1728048059217" duration="1219000" />
+      <workItem from="1728048059217" duration="5174000" />
     </task>
     <task id="LOCAL-00001" summary="Creating Project and setting up the first packages">
       <option name="closed" value="true" />
@@ -125,7 +120,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728031831894</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Creating the classes need for AddRemove button">
+      <option name="closed" value="true" />
+      <created>1728049702796</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728049702796</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Creating the classes need for AddRemove button">
+      <option name="closed" value="true" />
+      <created>1728050224996</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728050224996</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +144,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creating Project and setting up the first packages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating Project and setting up the first packages" />
+    <MESSAGE value="Creating the classes need for AddRemove button" />
+    <MESSAGE value="Applying Page Object Model by creating pageObjects package, AddRemovePage class, containing all the locators needed for the AddRemoveSteps steps and then refactoring AddRemoveSteps class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Applying Page Object Model by creating pageObjects package, AddRemovePage class, containing all the locators needed for the AddRemoveSteps steps and then refactoring AddRemoveSteps class" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
