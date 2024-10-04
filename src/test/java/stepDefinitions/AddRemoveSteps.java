@@ -4,15 +4,13 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.By;
-
 import org.openqa.selenium.WebElement;
 import utils.TestBase;
 
-
-import static org.junit.Assert.*;
-
-import java.io.IOException;
 import java.util.List;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 public class AddRemoveSteps {
     TestBase testBase;
@@ -23,7 +21,7 @@ public class AddRemoveSteps {
     }
 
     @Given("User goes to AddRemove Elements page")
-    public void user_goes_to_addRemove_elements_page() throws IOException, InterruptedException {
+    public void user_goes_to_addRemove_elements_page() {
         this.testBase.driver.findElement(By.cssSelector("a[href='/add_remove_elements/']")).click();
         String currentUrl = testBase.driver.getCurrentUrl();
         assertEquals("URL does not match", "https://the-internet.herokuapp.com/add_removeelements/", currentUrl);
