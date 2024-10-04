@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="adaac05c-4800-44d9-a2e0-2330081484e3" name="Changes" comment="Applying Page Object Model by creating pageObjects package, AddRemovePage class, containing all the locators needed for the AddRemoveSteps steps and then refactoring AddRemoveSteps class">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/AddRemovePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/AddRemovePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/AddRemovePage.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/AddRemoveSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/AddRemoveSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +112,7 @@
       <option name="presentableId" value="Default" />
       <updated>1728031495005</updated>
       <workItem from="1728031496069" duration="9130000" />
-      <workItem from="1728048059217" duration="5174000" />
+      <workItem from="1728048059217" duration="6745000" />
     </task>
     <task id="LOCAL-00001" summary="Creating Project and setting up the first packages">
       <option name="closed" value="true" />
@@ -136,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728050224996</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Applying Page Object Model by creating pageObjects package, AddRemovePage class, containing all the locators needed for the AddRemoveSteps steps and then refactoring AddRemoveSteps class">
+      <option name="closed" value="true" />
+      <created>1728054172633</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728054172633</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
