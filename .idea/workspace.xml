@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adaac05c-4800-44d9-a2e0-2330081484e3" name="Changes" comment="Applying Page Object Model by creating pageObjects package, AddRemovePage class, containing all the locators needed for the AddRemoveSteps steps and then refactoring AddRemoveSteps class">
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/BasicAuthorizationPage.java" afterDir="false" />
+    <list default="true" id="adaac05c-4800-44d9-a2e0-2330081484e3" name="Changes" comment="Basic Authentication test added with BasicAuthorizationPage class for the step definitions and edits in the CucumberRunner (new annotation) and set username and password properties in global.properties">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/CheckboxesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/CheckboxesSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberOptions/CucumberRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberOptions/CucumberRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/features/hookUpApp.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/hookUpApp.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/global.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/global.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +95,10 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SeleniumInternalSettingsState">
+    <option name="lastFrameworkName" value="FluentLenium" />
+    <option name="lastLanguageId" value="JAVA" />
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -111,7 +117,7 @@
       <updated>1728031495005</updated>
       <workItem from="1728031496069" duration="9130000" />
       <workItem from="1728048059217" duration="6745000" />
-      <workItem from="1728280015736" duration="446000" />
+      <workItem from="1728280015736" duration="3842000" />
     </task>
     <task id="LOCAL-00001" summary="Creating Project and setting up the first packages">
       <option name="closed" value="true" />
@@ -145,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728054172633</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Basic Authentication test added with BasicAuthorizationPage class for the step definitions and edits in the CucumberRunner (new annotation) and set username and password properties in global.properties">
+      <option name="closed" value="true" />
+      <created>1728280790693</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728280790693</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,7 +169,8 @@
     <MESSAGE value="Creating Project and setting up the first packages" />
     <MESSAGE value="Creating the classes need for AddRemove button" />
     <MESSAGE value="Applying Page Object Model by creating pageObjects package, AddRemovePage class, containing all the locators needed for the AddRemoveSteps steps and then refactoring AddRemoveSteps class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Applying Page Object Model by creating pageObjects package, AddRemovePage class, containing all the locators needed for the AddRemoveSteps steps and then refactoring AddRemoveSteps class" />
+    <MESSAGE value="Basic Authentication test added with BasicAuthorizationPage class for the step definitions and edits in the CucumberRunner (new annotation) and set username and password properties in global.properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic Authentication test added with BasicAuthorizationPage class for the step definitions and edits in the CucumberRunner (new annotation) and set username and password properties in global.properties" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

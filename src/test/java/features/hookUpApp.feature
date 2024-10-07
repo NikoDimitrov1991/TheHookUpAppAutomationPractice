@@ -12,3 +12,10 @@ Feature: Practice automating the cases in hookupapp website
   Scenario: User successfully logs in
     Given User navigates to the Basic Auth page with valid credentials
     Then User should see a confirmation message
+
+  @Checkboxes
+  Scenario: User interacts with checkboxes on the Checkboxes page
+    Given User navigates to the Checkboxes page
+    When User verifies the initial status of the checkboxes
+    Then User selects the first checkbox if not already selected
+    And User unselects the second checkbox if already selected
