@@ -19,3 +19,9 @@ Feature: Practice automating the cases in hookupapp website
     When User verifies the initial status of the checkboxes
     Then User selects the first checkbox if not already selected
     And User unselects the second checkbox if already selected
+
+  @ContextMenu
+  Scenario: User triggers a JavaScript alert via Context menu
+    Given User navigates to the Context Menu page
+    When User right-clicks on the box
+    Then A JavaScript alert should appear with the message "You selected a context menu"
