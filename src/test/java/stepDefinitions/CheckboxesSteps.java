@@ -20,7 +20,7 @@ public class CheckboxesSteps {
 
     @Given("User navigates to the Checkboxes page")
     public void userNavigatesToTheCheckboxesPage() {
-        testBase.driver.get("https://the-internet.herokuapp.com/checkboxes");
+        checkboxesPage.checkboxes_page.click();
     }
 
     @When("User verifies the initial status of the checkboxes")

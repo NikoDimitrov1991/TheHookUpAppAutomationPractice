@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adaac05c-4800-44d9-a2e0-2330081484e3" name="Changes" comment="Basic Authentication test added with BasicAuthorizationPage class for the step definitions and edits in the CucumberRunner (new annotation) and set username and password properties in global.properties">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/ContextMenuPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/ContextMenuSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="adaac05c-4800-44d9-a2e0-2330081484e3" name="Changes" comment="Context Menu test added with new scenario in hookUpApp.feature, ContextMenuSteps class for the step definitions, ContextMenuPage for the locators and edits in the CucumberRunner (new annotation)">
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/CheckboxesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/CheckboxesPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/cucumberOptions/CucumberRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberOptions/CucumberRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/hookUpApp.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/hookUpApp.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/CheckboxesSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/CheckboxesSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +118,7 @@
       <workItem from="1728031496069" duration="9130000" />
       <workItem from="1728048059217" duration="6745000" />
       <workItem from="1728280015736" duration="3842000" />
-      <workItem from="1728374686014" duration="1086000" />
+      <workItem from="1728374686014" duration="1399000" />
     </task>
     <task id="LOCAL-00001" summary="Creating Project and setting up the first packages">
       <option name="closed" value="true" />
@@ -162,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728280790693</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Context Menu test added with new scenario in hookUpApp.feature, ContextMenuSteps class for the step definitions, ContextMenuPage for the locators and edits in the CucumberRunner (new annotation)">
+      <option name="closed" value="true" />
+      <created>1728375950147</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1728375950147</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,7 +179,8 @@
     <MESSAGE value="Creating the classes need for AddRemove button" />
     <MESSAGE value="Applying Page Object Model by creating pageObjects package, AddRemovePage class, containing all the locators needed for the AddRemoveSteps steps and then refactoring AddRemoveSteps class" />
     <MESSAGE value="Basic Authentication test added with BasicAuthorizationPage class for the step definitions and edits in the CucumberRunner (new annotation) and set username and password properties in global.properties" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic Authentication test added with BasicAuthorizationPage class for the step definitions and edits in the CucumberRunner (new annotation) and set username and password properties in global.properties" />
+    <MESSAGE value="Context Menu test added with new scenario in hookUpApp.feature, ContextMenuSteps class for the step definitions, ContextMenuPage for the locators and edits in the CucumberRunner (new annotation)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Context Menu test added with new scenario in hookUpApp.feature, ContextMenuSteps class for the step definitions, ContextMenuPage for the locators and edits in the CucumberRunner (new annotation)" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
